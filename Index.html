@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Background */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Glass Container */
+    .glass {
+      width: 80%;
+      max-width: 900px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 30px;
+      color: #fff;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+
+    /* Sections */
+    section {
+      margin: 20px 0;
+    }
+    section h2 {
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+    section p {
+      line-height: 1.6;
+    }
+
+    /* Skills List */
+    .skills {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 0.9em;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass">
+    <header>
+      <h1>John Doe</h1>
+      <p>Web Developer | Designer | Tech Enthusiast</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m John, a passionate web developer who loves creating modern, user-friendly, 
+        and visually appealing websites. I enjoy working with HTML, CSS, and JavaScript 
+        to bring ideas to life.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Python</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p>1. Personal Portfolio Website</p>
+      <p>2. E-commerce Landing Page</p>
+      <p>3. To-do App with React</p>
+    </section>
+
+    <footer>
+      © 2025 John Doe | Contact: johndoe@email.com
+    </footer>
+  </div>
+</body>
+</html>
